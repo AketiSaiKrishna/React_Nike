@@ -1,0 +1,106 @@
+.Container{
+    display:flex;
+    align-items: center;
+    height:calc(100vh-60px);
+    padding: 20px 0 0 40px;
+}
+
+.Hero-img img{
+    height:550px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.brand img{
+    height:30px;
+    width: auto;
+    margin-top:10px;
+    margin-left: -4px;
+}
+
+.Hero-content{
+   margin-left:50px;
+}
+
+.Hero-content h1{
+    font-weight: 100px;
+    font-size: 100px;
+    line-height: 100px;
+    margin-bottom: 10px;
+ }
+
+ .Hero-content p{
+    margin-left: 10px;
+    font-weight: 2px;
+    font-size: 30px;
+    text-align: justify;
+ }
+
+ .btn{
+    margin-left:-10px ;
+    margin-bottom: -10px;
+
+ }
+
+ .shopping p{
+      font-size: 20px;
+ }
+
+ #amazon{
+    height:28px;
+    margin-left: 5px;
+ }
+ 
+#mobile{
+  display: none;
+}
+
+
+/* Media Query for 768px Screens and Below */
+@media screen and (max-width: 768px) {
+
+   .Container {
+     flex-direction: column;
+     justify-content: center;
+     margin-left: 25px;
+     padding: 0 20px;
+   }
+ 
+   .Hero-img img {
+     width: auto;
+     height: 300px;;
+   }
+ 
+   .Hero-content {
+     margin-left: 0;
+     margin-top: 10px;
+   }
+ 
+   .Hero-content h1 {
+     font-size: 50px;
+     line-height: 50px;
+   }
+ 
+   .Hero-content p {
+     font-size: 20px;
+     width: 80vw;
+     padding-top: 10px;
+   }
+
+   #mobile{
+    display: block;
+    margin-left: 5px;
+   }
+
+   .shopping{
+    padding: 15px 0 0px 0;
+    font-size: 12px;
+   }
+   
+   .brand{
+    margin-left: 1px;
+   }
+   
+
+ }

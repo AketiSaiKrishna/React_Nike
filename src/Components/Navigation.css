@@ -1,0 +1,109 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playball&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap') */
+
+:root{
+    --red:#d81c28;
+    --gray: #2e2e2e;
+  }
+  
+  *{margin:0;}
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin:0 auto;
+    height:60px;
+    padding:10px 30px;
+    align-items: center;
+  }
+
+  .logo img{
+    margin-left: 15px;
+    height:30px;
+    width:auto;
+  }
+  
+  .navbar{
+    display:flex;
+    align-items: center;
+  }
+  
+  .navbar li{
+    list-style-type: none;
+  }
+  
+  .navbar li a{
+    text-decoration: none;
+    padding-left: 25px;
+    color: black;
+    font-size:medium;
+    font-weight: bold;
+  }
+  
+  button{
+    margin: 20px 20px;
+    padding:1px 10px;
+    background: var(--red);
+    height:25px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border-color: #d81c28;
+    
+  }
+
+  #mobile{
+    display: none;
+  }
+
+ 
+@media screen and (max-width: 768px) {
+  .logo img {
+      margin: 10px 0px 0px 10px; 
+  }
+
+  #mobile{
+    display: block;
+  }
+
+  .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      position: absolute;
+      top: 60px; 
+      left: 0;
+      background: #2e2e2e;
+      padding: 20px 0;
+      transition: all 0.3s ease;
+      opacity: 0;
+      visibility: hidden;
+  }
+
+  .navbar.active {
+      opacity: 1;
+      visibility: visible;
+      display: block;
+      align-items: center;
+  }
+
+  .navbar li {
+      margin-bottom: 15px;
+  }
+
+  .navbar li a {
+      padding-left: 15px; 
+      font-size: 16px; 
+      color: antiquewhite;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  button {
+    display: none;
+  }
+}
+
+  
