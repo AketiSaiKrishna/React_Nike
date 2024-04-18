@@ -1,3 +1,6 @@
+import shoe from '../assets/shoe final.png';
+import flipkart from '../assets/fp.png';
+import amazon from '../assets/amazon.png';
 
 
 import  './hero.css';
@@ -21,12 +24,12 @@ let Hero=()=>{
             </div>
             <button id="mobile">Login</button>
             <div className="brand">
-            <img src="/assests/fp.png" alt="filpkart"/>
-            <img id= "amazon" src="/assests/amazon.png" alt="Amazon"/>
+            <img src={flipkart} alt="filpkart"/>
+            <img id= "amazon" src={amazon} alt="Amazon"/>
             </div>
         </div>
         <div className="Hero-img">
-            <img src="/assests/shoe final.png" alt="nike"/>
+            <img src= {shoe} alt="nike"/>
         </div>
     </div>
         </>

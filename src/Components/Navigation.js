@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../assets/nike.png';
 import './Navigation.css';
 
 let Navigation=()=>{
@@ -10,7 +11,7 @@ let Navigation=()=>{
     return(
         <nav>
         <div className="logo">
-          <img src="/assests/nike.png" alt="Logo"/>
+          <img src={logo} alt="Logo"/>
         </div>
         <div id="mobile" onClick={toggleMobileMenu}>
           <i className={mobileMenuOpen? "fas fa-times":"fas fa-bars"}></i>
