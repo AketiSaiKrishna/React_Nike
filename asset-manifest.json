@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React_Nike/static/css/main.87835f8c.css",
+    "main.js": "/React_Nike/static/js/main.398b10ba.js",
+    "static/js/453.993e129c.chunk.js": "/React_Nike/static/js/453.993e129c.chunk.js",
+    "static/media/shoe final.png": "/React_Nike/static/media/shoe final.cc3a26ab2f6794d478de.png",
+    "static/media/fp.png": "/React_Nike/static/media/fp.640c48e53af86bd8c4b8.png",
+    "index.html": "/React_Nike/index.html",
+    "main.87835f8c.css.map": "/React_Nike/static/css/main.87835f8c.css.map",
+    "main.398b10ba.js.map": "/React_Nike/static/js/main.398b10ba.js.map",
+    "453.993e129c.chunk.js.map": "/React_Nike/static/js/453.993e129c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87835f8c.css",
+    "static/js/main.398b10ba.js"
+  ]
+}
