@@ -13,7 +13,7 @@ let Hero=()=>{
             <p>Your feet deserve the best and we are here
                 help you to with shoes your feet deserve.
                 Your feet deserve the best and we are here help
-                you to what your feet deserve.
+                you.
             </p>
             <div className="btn">
             <button>Shop Now </button>
